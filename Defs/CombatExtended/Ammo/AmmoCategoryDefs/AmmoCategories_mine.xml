@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- =============== Carl Gustav Shell =============== -->
+   <CombatExtended.AmmoCategoryDef>
+    <defName>Mine</defName>
+    <label>Cистема Mинирования</label>
+    <labelShort>СМ</labelShort>
+    <description>Система дистанционного минирования - предназначена для оперативного создания минных полей на особо опасных направлениях.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+    <defName>FLMine</defName>
+    <label>Cистема Сброса</label>
+    <labelShort>СБ</labelShort>
+    <description>Система дистанционного сброса гранат.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+ <CombatExtended.AmmoCategoryDef>
+    <defName>FLEmi</defName>
+    <label>Система ЭМИ подавления</label>
+    <labelShort>сЭМИп</labelShort>
+    <description>Система установки эми помех.</description>
+  </CombatExtended.AmmoCategoryDef>
+</Defs>

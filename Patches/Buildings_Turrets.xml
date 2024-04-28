@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		 <li>WatcherXI.HSK.Servomod</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+
+		<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Turret_MiniServo"]/costList</xpath>
+        <value>
+         <Engine>1</Engine>
+        </value>
+		</li>
+       <li  Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_ShutGunServo"]/costList</xpath>
+				<value>
+						<Engine>1</Engine>
+				</value>
+			</li>
+			
+    <li  Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_ShutGunFlaim"]/costList</xpath>
+				<value>
+						<Engine>1</Engine>
+
+				</value>
+			</li>
+			
+	 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_HeviServo"]/costList</xpath>
+				<value>
+				
+						<Engine>1</Engine>
+					
+				</value>
+			</li>
+
+    <li  Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_plasma_Servo"]/costList</xpath>
+				<value>
+					
+						<Engine>1</Engine>
+					
+				</value>
+			 </li>
+	<li  Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_art_Servo"]/costList</xpath>
+				<value>
+					
+						<Engine>1</Engine>
+					
+				</value>
+		     </li>
+	<li  Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_Mortal_Servo"]/costList</xpath>
+				<value>
+					
+						<Engine>1</Engine>
+					
+				</value>
+			 </li>
+		</operations>
+		</match>
+	</Operation>
+	
+	
+	
+</Patch>
